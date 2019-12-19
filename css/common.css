@@ -1,0 +1,22 @@
+body{
+    font-family: "宋体";
+    font-size:12px;
+    color:#666;
+}
+/*格式化页面，归零元素的内外间距*/
+body,html,p,span,input,form,ul,li{
+    margin:0;
+    padding:0;
+}
+/*不显示列表项*/
+ul,li{
+    list-style-type: none;
+}
+/*未访问和已访问的超链接无下划线*/
+a,a:visited{text-decoration: none;}
+/*悬停超链接有下划线*/
+a:hover{text-decoration: underline}
+
+.line1{background-color: #a57cae;height: 1px;width:980px;}
+.line2{background-color: blue;height: 1px;width:980px;}
+.line3{background-color: #efecff;height: 1px;width:980px;}
